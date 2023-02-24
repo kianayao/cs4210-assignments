@@ -1,7 +1,7 @@
 #-------------------------------------------------------------------------
 # AUTHOR: kiana yao
 # FILENAME: decision_tree.py
-# SPECIFICATION: reads in file contact_lens1.csv, contact_lens2.csv, and contact_lens3.csv and predicts a class calue given test data
+# SPECIFICATION: reads in file contact_lens1.csv, contact_lens2.csv, and contact_lens3.csv and predicts a class value given test data
 # FOR: CS 4210- Assignment #2
 # TIME SPENT: 11:11 - 12:23 =  72 min
 #-----------------------------------------------------------*/
