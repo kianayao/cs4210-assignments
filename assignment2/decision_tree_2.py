@@ -3,7 +3,7 @@
 # FILENAME: decision_tree.py
 # SPECIFICATION: reads in file contact_lens1.csv, contact_lens2.csv, and contact_lens3.csv and outputs a decision tree
 # FOR: CS 4210- Assignment #2
-# TIME SPENT: 11:11 -  =  min
+# TIME SPENT: 11:11 - 12:23 =  72 min
 #-----------------------------------------------------------*/
 
 #IMPORTANT NOTE: DO NOT USE ANY ADVANCED PYTHON LIBRARY TO COMPLETE THIS CODE SUCH AS numpy OR pandas. You have to work here only with standard
