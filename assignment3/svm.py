@@ -52,14 +52,21 @@ for i in c:
                 #to make a prediction do: clf.predict([x_testSample])
                 #--> add your Python code here
                 highest_acc = 0.0
+                counter = 0
                 for (x_testSample, y_testSample) in zip(X_test, y_test):
-                    accuracy = clf.predict([x_testSample])
+                    result = clf.predict([x_testSample]) 
+                    if result == y_testSample:
+                        counter += 1
+                accuracy = counter / len(y_test)
 
 
                 #check if the calculated accuracy is higher than the previously one calculated. If so, update the highest accuracy and print it together
                 #with the SVM hyperparameters. Example: "Highest SVM accuracy so far: 0.92, Parameters: a=1, degree=2, kernel= poly, decision_function_shape = 'ovo'"
                 #--> add your Python code here
-                
                 if accuracy > highest_acc:
                     highest_acc = accuracy
                     print("Highest SVM accuracy so far: " + str(accuracy) + ", Parameters: c = " + str(i) + " degree = " + str(d) + " kernel = " + k + " decision_function_shape = " + f)
+
+
+
+
